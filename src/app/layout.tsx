@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://p3-website-snowy.vercel.app"),
   title: {
     default: "P3 — Corporate Apparel & Garment Decorating",
     template: "%s | P3",
